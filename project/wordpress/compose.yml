@@ -1,0 +1,24 @@
+services:
+  wordpress:
+    image: wordpress:latest
+    ports:
+      - 8080:80
+    environment:
+      WORDPRESS_DB_HOST: db
+      WORDPRESS_DB_USER: user1
+      WORDPRESS_DB_PASSWORD: roota
+      WORDPRESS_DB_NAME: db
+    volumes:
+      - "/mnt/wp-content:/var/www/html/wp-content"
+
+  db:
+    image: mysql:8.0
+    environment:
+      MYSQL_ROOT_PASSWORD: rootb
+      MYSQL_DATABASE: db
+      MYSQL_USER: user1
+      MYSQL_PASSWORD: roota
+    volumes:
+      - "/mnt/mysql:/var/lib/mysql"
+    ports:
+      - 3306:3306
