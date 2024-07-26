@@ -77,11 +77,11 @@ Avant d'exécuter les scripts, vous devez configurer les variables dans le fichi
   - **Description** : L'adresse IP virtuelle pour Keepalived.
   - **Exemple** : `VIP_IP="172.16.0.100"`
 
-## Utilisation des Scripts
+# Utilisation des Scripts
 
 Cette section explique comment utiliser les scripts fournis pour déployer les stacks docker.
 
-### Étapes à Suivre
+## Étapes à Suivre
 
 1. **Accéder au Répertoire des Scripts** :
    Ouvrez votre terminal et naviguez jusqu'au répertoire contenant les scripts :
@@ -133,7 +133,7 @@ Cette section explique comment utiliser les scripts fournis pour déployer les s
    - Pour vérifier les services Docker en cours d'exécution :
      `docker service ls`
 
-### Exemple d'Exécution
+## Exemple d'Exécution
 
 Voici un exemple de la façon dont vous pourriez exécuter les scripts dans votre terminal :
 
