@@ -29,7 +29,8 @@ Lien GitHub public : [https://github.com/Jojo-rel/dockercontainerM1SRC.git](http
   
 ## Wordpress
 - **Port**: 80
-## Configuration
+  
+# Configuration
 
 Avant d'exécuter les scripts, vous devez configurer les variables dans le fichier `config.sh`. Voici les variables à modifier :
 
