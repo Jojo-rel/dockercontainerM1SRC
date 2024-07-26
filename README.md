@@ -9,6 +9,7 @@ Simon Gressard | Jonathan Ortega | Deguy Mégane
 
 Lien GitHub public : [https://github.com/Jojo-rel/dockercontainerM1SRC.git](https://github.com/Jojo-rel/dockercontainerM1SRC.git)
 
+# Sommaire
 1. [Applications déployées dans la stack docker](#Applications-déployées-dans-la-stack-docker)
 2. [Configuration](#configuration)
 3. [Utilisation des Scripts](#utilisation-des-scripts)
