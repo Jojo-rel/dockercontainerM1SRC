@@ -131,7 +131,7 @@ Cette section explique comment utiliser les scripts fournis pour déployer les s
 
 Voici un exemple de la façon dont vous pourriez exécuter les scripts dans votre terminal :
 
-   `cd /path/to/your/scripts`
-   `dos2unix *.sh`
-   `chmod +x *.sh`
-   `./install.sh`
+   - `cd /path/to/your/scripts`
+   - `dos2unix *.sh`
+   - `chmod +x *.sh`
+   - `./install.sh`
