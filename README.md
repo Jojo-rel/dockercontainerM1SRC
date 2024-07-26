@@ -1,9 +1,29 @@
-##################### DockerStackM1SRC #####################
- 
-##################### Github #####################
+# DockerStackM1SRC
 
-lien github publique : https://github.com/Jojo-rel/dockercontainerM1SRC.git
+Ce dépôt contient des scripts pour déployer automatiquement une stack Docker incluant Docker Swarm, GlusterFS et Keepalived sur 3 nœuds.
 
+## Github
+
+Lien GitHub public : [https://github.com/Jojo-rel/dockercontainerM1SRC.git](https://github.com/Jojo-rel/dockercontainerM1SRC.git)
+
+# Applications déployées dans la stack docker
+
+## Grafana
+- **Port**: 3000
+- **Dashboard**: Marketplace Grafana, voir fichier `./project/grafana/11600_rev1.json` (a été chargé directement depuis l'interface GUI de Grafana)
+- **Source monitoring**: Prometheus
+
+## Prometheus
+- **Port**: 9090
+
+## Cadvisor
+- **Port**: 8005
+
+## Alertmanager
+- **Port**: 9093
+  
+## Wordpress
+- **Port**: 80
 ## Configuration
 
 Avant d'exécuter les scripts, vous devez configurer les variables dans le fichier `config.sh`. Voici les variables à modifier :
@@ -115,21 +135,3 @@ Voici un exemple de la façon dont vous pourriez exécuter les scripts dans votr
    `dos2unix *.sh`
    `chmod +x *.sh`
    `./install.sh`
-
-##################### App Supplémentaires #####################
-
-Grafana 
-  port: 3000
-  dashboard: Marketplace Grafana, voir fichier "./project/grafana/11600_rev1.json" (a été chargé directement depuis l'interface GUI de Grafana)      
-  Source monitoring: prometheus
-
-##################### Prometheus #####################
-
-Prometheus
-  port: 9090
-  
-Cadvisor
-  port: 8005
-  
-alertmanager 
-  port: 9093
