@@ -18,12 +18,12 @@ Lien GitHub public : [https://github.com/Jojo-rel/dockercontainerM1SRC.git](http
 
 # Applications déployées dans la stack docker
 
-| Application   | Port | Dashboard / Configuration                                                | Informations supplémentaires |
-|---------------|------|---------------------------------------------------------------------------|-------------------|
-| **Grafana**   | 3000 | Marketplace Grafana, voir fichier `./project/grafana/11600_rev1.json` (a été chargé directement depuis l'interface GUI de Grafana) | Prometheus        |
-| **Prometheus**| 9090 |                                                                           |                   |
-| **Cadvisor**  | 8005 |                                                                           |                   |
-| **Alertmanager** | 9093 |                                                                           |                   |
+| Application   | Port |  Informations supplémentaires|                                             
+|---------------|------|---------------------------------------------------------------------------|
+| **Grafana**   | 3000 | Marketplace Grafana, voir fichier `./project/grafana/11600_rev1.json` (a été chargé directement depuis l'interface GUI de Grafana) | 
+| **Prometheus**| 9090 |                                                                           |        
+| **Cadvisor**  | 8005 |                                                                         |
+| **Alertmanager** | 9093 |                                                                         | 
 | **Wordpress** | 80   |   
   
 # Configuration
