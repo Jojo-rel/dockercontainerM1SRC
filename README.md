@@ -13,7 +13,7 @@ Lien GitHub public : [https://github.com/Jojo-rel/dockercontainerM1SRC.git](http
 2. [Configuration](#configuration)
 3. [Utilisation des Scripts](#utilisation-des-scripts)
    - [Étapes à Suivre](#étapes-à-suivre)
-   - [Exemple d'Exécution](#Exemple-d'Exécution)
+   - [Exemple](#Exemple)
 
 # Applications déployées dans la stack docker
 
@@ -137,7 +137,7 @@ Cette section explique comment utiliser les scripts fournis pour déployer les s
    - Pour vérifier les services Docker en cours d'exécution :
      `docker service ls`
 
-## Exemple d'Exécution
+## Exemple
 
 Voici un exemple de la façon dont vous pourriez exécuter les scripts dans votre terminal :
 
