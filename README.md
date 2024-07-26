@@ -2,6 +2,11 @@
 
 Ce dépôt contient des scripts pour déployer automatiquement une stack Docker incluant Docker Swarm, GlusterFS et Keepalived sur 3 nœuds.
 
+## Auteurs
+- Simon Gressard
+- Jonathan Ortega
+- Deguy Mégane
+
 ## Github
 
 Lien GitHub public : [https://github.com/Jojo-rel/dockercontainerM1SRC.git](https://github.com/Jojo-rel/dockercontainerM1SRC.git)
